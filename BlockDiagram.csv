@@ -1,0 +1,69 @@
+Reference, Value, Footprint, Datasheet, MFG, MFG#, Note1
+A101,FTDI_Friend,,,AdaFruit,ada284,3.3V (Optional)
+U202,TLC5940NT,,https://octopart.com/tlc5940nt-texas+instruments-471968,Texas Instruments,TLC5940NT,
+J202,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+BT201,3V Battery,,
+J201,CONN_06,,,,,0.1" Header
+SW202,SW_SPST,,
+J203,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+J204,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+J205,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+J206,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+Y201,8MHz,,https://octopart.com/foxslf%2F080-20-fox+electronics-125002,Fox Electronics,FOXSLF/080-20,
+C202,22pF,,
+SW201,SW_PUSH_NO,,
+MH201,NPTH,,,,,
+MH202,NPTH,,,,,
+MH203,NPTH,,,,,
+MH204,NPTH,,,,,
+R202,1M,,
+C201,22pF,,
+C205,0.1uF,,
+C204,0.1uF,,,,,
+C203,0.1uF,,
+R201,10K,,
+D201,DIODE,,
+C206,0.1uF,,
+U201,ATMEGA328-P,,,Atmel,ATMEGA__8A-P,
+R204,2k0,,
+R203,10K,,
+J301,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+D301,LED_RABG,,https://octopart.com/848-adafruit+industries-32978936,AdaFruit,ada848,
+D302,IR LED,,https://octopart.com/tsal6100-vishay-39643276,Vishay,TSAL6100,
+U301,TSOP32138,,https://octopart.com/tsop32138-vishay-39643233,Vishay,TSOP32138,38 kHz Carrier
+MH301,NPTH,,
+MH302,NPTH,,
+MH303,NPTH,,
+MH304,NPTH,,
+J401,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+D401,LED_RABG,,https://octopart.com/848-adafruit+industries-32978936,AdaFruit,ada848,
+D402,IR LED,,https://octopart.com/tsal6100-vishay-39643276,Vishay,TSAL6100,
+U401,TSOP32138,,https://octopart.com/tsop32138-vishay-39643233,Vishay,TSOP32138,38 kHz Carrier
+MH401,NPTH,,
+MH402,NPTH,,
+MH403,NPTH,,
+MH404,NPTH,,
+J501,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+D501,LED_RABG,,https://octopart.com/848-adafruit+industries-32978936,AdaFruit,ada848,
+D502,IR LED,,https://octopart.com/tsal6100-vishay-39643276,Vishay,TSAL6100,
+U501,TSOP32138,,https://octopart.com/tsop32138-vishay-39643233,Vishay,TSOP32138,38 kHz Carrier
+MH501,NPTH,,
+MH502,NPTH,,
+MH503,NPTH,,
+MH504,NPTH,,
+J601,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+D601,LED_RABG,,https://octopart.com/848-adafruit+industries-32978936,AdaFruit,ada848,
+D602,IR LED,,https://octopart.com/tsal6100-vishay-39643276,Vishay,TSAL6100,
+U601,TSOP32138,,https://octopart.com/tsop32138-vishay-39643233,Vishay,TSOP32138,38 kHz Carrier
+MH601,NPTH,,
+MH602,NPTH,,
+MH603,NPTH,,
+MH604,NPTH,,
+J701,CONN_08,,https://octopart.com/955-01-2881-molex-21406700,Molex Inc,0955012881,RJ-45 8P8C
+D701,LED_RABG,,https://octopart.com/848-adafruit+industries-32978936,AdaFruit,ada848,
+D702,IR LED,,https://octopart.com/tsal6100-vishay-39643276,Vishay,TSAL6100,
+U701,TSOP32138,,https://octopart.com/tsop32138-vishay-39643233,Vishay,TSOP32138,38 kHz Carrier
+MH701,NPTH,,
+MH702,NPTH,,
+MH703,NPTH,,
+MH704,NPTH,,

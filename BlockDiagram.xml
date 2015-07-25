@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Libraries/MyDevelopment/KiCad/MultiTrippyRGB/BlockDiagram.sch</source>
+    <date>2015-07-25 00:05:41</date>
+    <tool>Eeschema (2015-06-19 BZR 5795)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Multi Trippy LED</title>
+        <company>Barrel of Makers</company>
+        <rev>0.0.1</rev>
+        <date>2015-07-24</date>
+        <source>BlockDiagram.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Processor Board/" tstamps="/55AE2FE6/">
+      <title_block>
+        <title>Multi Trippy LED</title>
+        <company>Barrel of Makers</company>
+        <rev>0.0.1</rev>
+        <date>2015-07-24</date>
+        <source>ProcessorBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/LED and Sensor Board #1/" tstamps="/55AE300A/">
+      <title_block>
+        <title>Multi Trippy LED</title>
+        <company>Barrel of Makers</company>
+        <rev>0.0.1</rev>
+        <date>2015-07-24</date>
+        <source>LEDandSensorBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/LED and Sensor Board #2/" tstamps="/55AE393A/">
+      <title_block>
+        <title>Multi Trippy LED</title>
+        <company>Barrel of Makers</company>
+        <rev>0.0.1</rev>
+        <date>2015-07-24</date>
+        <source>LEDandSensorBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/LED and Sensor Board #3/" tstamps="/55AE393C/">
+      <title_block>
+        <title>Multi Trippy LED</title>
+        <company>Barrel of Makers</company>
+        <rev>0.0.1</rev>
+        <date>2015-07-24</date>
+        <source>LEDandSensorBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/LED and Sensor Board #4/" tstamps="/55AE393E/">
+      <title_block>
+        <title>Multi Trippy LED</title>
+        <company>Barrel of Makers</company>
+        <rev>0.0.1</rev>
+        <date>2015-07-24</date>
+        <source>LEDandSensorBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/LED and Sensor Board #5/" tstamps="/55AE3940/">
+      <title_block>
+        <title>Multi Trippy LED</title>
+        <company>Barrel of Makers</company>
+        <rev>0.0.1</rev>
+        <date>2015-07-24</date>
+        <source>LEDandSensorBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A101">
+      <value>FTDI_Friend</value>
+      <fields>
+        <field name="MFG">AdaFruit</field>
+        <field name="MFG#">ada284</field>
+        <field name="Note1">3.3V (Optional)</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="FTDI_Friend"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B055F8</tstamp>
+    </comp>
+    <comp ref="U202">
+      <value>TLC5940NT</value>
+      <datasheet>https://octopart.com/tlc5940nt-texas+instruments-471968</datasheet>
+      <fields>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG#">TLC5940NT</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="TLC5940NT"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55ADD499</tstamp>
+    </comp>
+    <comp ref="J202">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55AEEF8F</tstamp>
+    </comp>
+    <comp ref="BT201">
+      <value>3V Battery</value>
+      <libsource lib="NewUnsorted" part="Battery"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55AF05AA</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>CONN_06</value>
+      <fields>
+        <field name="Note1">0.1" Header</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B0CD42</tstamp>
+    </comp>
+    <comp ref="SW202">
+      <value>SW_SPST</value>
+      <libsource lib="NewUnsorted" part="SW_SPST"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B0D68B</tstamp>
+    </comp>
+    <comp ref="J203">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1B82B</tstamp>
+    </comp>
+    <comp ref="J204">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1B877</tstamp>
+    </comp>
+    <comp ref="J205">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1B8BC</tstamp>
+    </comp>
+    <comp ref="J206">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1B9E4</tstamp>
+    </comp>
+    <comp ref="Y201">
+      <value>8MHz</value>
+      <datasheet>https://octopart.com/foxslf%2F080-20-fox+electronics-125002</datasheet>
+      <fields>
+        <field name="MFG">Fox Electronics</field>
+        <field name="MFG#">FOXSLF/080-20</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="Crystal_Small"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1BD09</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>22pF</value>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1BE62</tstamp>
+    </comp>
+    <comp ref="SW201">
+      <value>SW_PUSH_NO</value>
+      <libsource lib="NewUnsorted" part="SW_PUSH_NO"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1BEB2</tstamp>
+    </comp>
+    <comp ref="MH201">
+      <value>NPTH</value>
+      <fields/>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1D126</tstamp>
+    </comp>
+    <comp ref="MH202">
+      <value>NPTH</value>
+      <fields/>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1D1C9</tstamp>
+    </comp>
+    <comp ref="MH203">
+      <value>NPTH</value>
+      <fields/>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1D295</tstamp>
+    </comp>
+    <comp ref="MH204">
+      <value>NPTH</value>
+      <fields/>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B1D29D</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>1M</value>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B2ECF6</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>22pF</value>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B2FB91</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>0.1uF</value>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B315C8</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>0.1uF</value>
+      <fields/>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B3170E</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>0.1uF</value>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B317B7</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>10K</value>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B31A77</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>DIODE</value>
+      <libsource lib="NewUnsorted" part="DIODE"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B31B33</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>0.1uF</value>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B325EA</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>ATMEGA328-P</value>
+      <fields>
+        <field name="MFG#">ATMEGA__8A-P</field>
+        <field name="MFG">Atmel</field>
+      </fields>
+      <libsource lib="Arduino" part="ATMEGA328-P"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B35C39</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>2k0</value>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B36E8E</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>10K</value>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/Processor Board/" tstamps="/55AE2FE6/"/>
+      <tstamp>55B46632</tstamp>
+    </comp>
+    <comp ref="J301">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/LED and Sensor Board #1/" tstamps="/55AE300A/"/>
+      <tstamp>55AE2D5A</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>LED_RABG</value>
+      <datasheet>https://octopart.com/848-adafruit+industries-32978936</datasheet>
+      <fields>
+        <field name="MFG">AdaFruit</field>
+        <field name="MFG#">ada848</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED_RABG"/>
+      <sheetpath names="/LED and Sensor Board #1/" tstamps="/55AE300A/"/>
+      <tstamp>55AE2DE0</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>IR LED</value>
+      <datasheet>https://octopart.com/tsal6100-vishay-39643276</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSAL6100</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED"/>
+      <sheetpath names="/LED and Sensor Board #1/" tstamps="/55AE300A/"/>
+      <tstamp>55AE2E4F</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>TSOP32138</value>
+      <datasheet>https://octopart.com/tsop32138-vishay-39643233</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSOP32138</field>
+        <field name="Note1">38 kHz Carrier</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="TSOP321xx"/>
+      <sheetpath names="/LED and Sensor Board #1/" tstamps="/55AE300A/"/>
+      <tstamp>55AEFC00</tstamp>
+    </comp>
+    <comp ref="MH301">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #1/" tstamps="/55AE300A/"/>
+      <tstamp>55B1A723</tstamp>
+    </comp>
+    <comp ref="MH302">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #1/" tstamps="/55AE300A/"/>
+      <tstamp>55B1A8CC</tstamp>
+    </comp>
+    <comp ref="MH303">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #1/" tstamps="/55AE300A/"/>
+      <tstamp>55B1A938</tstamp>
+    </comp>
+    <comp ref="MH304">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #1/" tstamps="/55AE300A/"/>
+      <tstamp>55B1A93E</tstamp>
+    </comp>
+    <comp ref="J401">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/LED and Sensor Board #2/" tstamps="/55AE393A/"/>
+      <tstamp>55AE2D5A</tstamp>
+    </comp>
+    <comp ref="D401">
+      <value>LED_RABG</value>
+      <datasheet>https://octopart.com/848-adafruit+industries-32978936</datasheet>
+      <fields>
+        <field name="MFG">AdaFruit</field>
+        <field name="MFG#">ada848</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED_RABG"/>
+      <sheetpath names="/LED and Sensor Board #2/" tstamps="/55AE393A/"/>
+      <tstamp>55AE2DE0</tstamp>
+    </comp>
+    <comp ref="D402">
+      <value>IR LED</value>
+      <datasheet>https://octopart.com/tsal6100-vishay-39643276</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSAL6100</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED"/>
+      <sheetpath names="/LED and Sensor Board #2/" tstamps="/55AE393A/"/>
+      <tstamp>55AE2E4F</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>TSOP32138</value>
+      <datasheet>https://octopart.com/tsop32138-vishay-39643233</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSOP32138</field>
+        <field name="Note1">38 kHz Carrier</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="TSOP321xx"/>
+      <sheetpath names="/LED and Sensor Board #2/" tstamps="/55AE393A/"/>
+      <tstamp>55AEFC00</tstamp>
+    </comp>
+    <comp ref="MH401">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #2/" tstamps="/55AE393A/"/>
+      <tstamp>55B1A723</tstamp>
+    </comp>
+    <comp ref="MH402">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #2/" tstamps="/55AE393A/"/>
+      <tstamp>55B1A8CC</tstamp>
+    </comp>
+    <comp ref="MH403">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #2/" tstamps="/55AE393A/"/>
+      <tstamp>55B1A938</tstamp>
+    </comp>
+    <comp ref="MH404">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #2/" tstamps="/55AE393A/"/>
+      <tstamp>55B1A93E</tstamp>
+    </comp>
+    <comp ref="J501">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/LED and Sensor Board #3/" tstamps="/55AE393C/"/>
+      <tstamp>55AE2D5A</tstamp>
+    </comp>
+    <comp ref="D501">
+      <value>LED_RABG</value>
+      <datasheet>https://octopart.com/848-adafruit+industries-32978936</datasheet>
+      <fields>
+        <field name="MFG">AdaFruit</field>
+        <field name="MFG#">ada848</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED_RABG"/>
+      <sheetpath names="/LED and Sensor Board #3/" tstamps="/55AE393C/"/>
+      <tstamp>55AE2DE0</tstamp>
+    </comp>
+    <comp ref="D502">
+      <value>IR LED</value>
+      <datasheet>https://octopart.com/tsal6100-vishay-39643276</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSAL6100</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED"/>
+      <sheetpath names="/LED and Sensor Board #3/" tstamps="/55AE393C/"/>
+      <tstamp>55AE2E4F</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>TSOP32138</value>
+      <datasheet>https://octopart.com/tsop32138-vishay-39643233</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSOP32138</field>
+        <field name="Note1">38 kHz Carrier</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="TSOP321xx"/>
+      <sheetpath names="/LED and Sensor Board #3/" tstamps="/55AE393C/"/>
+      <tstamp>55AEFC00</tstamp>
+    </comp>
+    <comp ref="MH501">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #3/" tstamps="/55AE393C/"/>
+      <tstamp>55B1A723</tstamp>
+    </comp>
+    <comp ref="MH502">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #3/" tstamps="/55AE393C/"/>
+      <tstamp>55B1A8CC</tstamp>
+    </comp>
+    <comp ref="MH503">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #3/" tstamps="/55AE393C/"/>
+      <tstamp>55B1A938</tstamp>
+    </comp>
+    <comp ref="MH504">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #3/" tstamps="/55AE393C/"/>
+      <tstamp>55B1A93E</tstamp>
+    </comp>
+    <comp ref="J601">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/LED and Sensor Board #4/" tstamps="/55AE393E/"/>
+      <tstamp>55AE2D5A</tstamp>
+    </comp>
+    <comp ref="D601">
+      <value>LED_RABG</value>
+      <datasheet>https://octopart.com/848-adafruit+industries-32978936</datasheet>
+      <fields>
+        <field name="MFG">AdaFruit</field>
+        <field name="MFG#">ada848</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED_RABG"/>
+      <sheetpath names="/LED and Sensor Board #4/" tstamps="/55AE393E/"/>
+      <tstamp>55AE2DE0</tstamp>
+    </comp>
+    <comp ref="D602">
+      <value>IR LED</value>
+      <datasheet>https://octopart.com/tsal6100-vishay-39643276</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSAL6100</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED"/>
+      <sheetpath names="/LED and Sensor Board #4/" tstamps="/55AE393E/"/>
+      <tstamp>55AE2E4F</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>TSOP32138</value>
+      <datasheet>https://octopart.com/tsop32138-vishay-39643233</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSOP32138</field>
+        <field name="Note1">38 kHz Carrier</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="TSOP321xx"/>
+      <sheetpath names="/LED and Sensor Board #4/" tstamps="/55AE393E/"/>
+      <tstamp>55AEFC00</tstamp>
+    </comp>
+    <comp ref="MH601">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #4/" tstamps="/55AE393E/"/>
+      <tstamp>55B1A723</tstamp>
+    </comp>
+    <comp ref="MH602">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #4/" tstamps="/55AE393E/"/>
+      <tstamp>55B1A8CC</tstamp>
+    </comp>
+    <comp ref="MH603">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #4/" tstamps="/55AE393E/"/>
+      <tstamp>55B1A938</tstamp>
+    </comp>
+    <comp ref="MH604">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #4/" tstamps="/55AE393E/"/>
+      <tstamp>55B1A93E</tstamp>
+    </comp>
+    <comp ref="J701">
+      <value>CONN_08</value>
+      <datasheet>https://octopart.com/955-01-2881-molex-21406700</datasheet>
+      <fields>
+        <field name="MFG">Molex Inc</field>
+        <field name="MFG#">0955012881</field>
+        <field name="Note1">RJ-45 8P8C</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_08"/>
+      <sheetpath names="/LED and Sensor Board #5/" tstamps="/55AE3940/"/>
+      <tstamp>55AE2D5A</tstamp>
+    </comp>
+    <comp ref="D701">
+      <value>LED_RABG</value>
+      <datasheet>https://octopart.com/848-adafruit+industries-32978936</datasheet>
+      <fields>
+        <field name="MFG">AdaFruit</field>
+        <field name="MFG#">ada848</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED_RABG"/>
+      <sheetpath names="/LED and Sensor Board #5/" tstamps="/55AE3940/"/>
+      <tstamp>55AE2DE0</tstamp>
+    </comp>
+    <comp ref="D702">
+      <value>IR LED</value>
+      <datasheet>https://octopart.com/tsal6100-vishay-39643276</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSAL6100</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED"/>
+      <sheetpath names="/LED and Sensor Board #5/" tstamps="/55AE3940/"/>
+      <tstamp>55AE2E4F</tstamp>
+    </comp>
+    <comp ref="U701">
+      <value>TSOP32138</value>
+      <datasheet>https://octopart.com/tsop32138-vishay-39643233</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG#">TSOP32138</field>
+        <field name="Note1">38 kHz Carrier</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="TSOP321xx"/>
+      <sheetpath names="/LED and Sensor Board #5/" tstamps="/55AE3940/"/>
+      <tstamp>55AEFC00</tstamp>
+    </comp>
+    <comp ref="MH701">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #5/" tstamps="/55AE3940/"/>
+      <tstamp>55B1A723</tstamp>
+    </comp>
+    <comp ref="MH702">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #5/" tstamps="/55AE3940/"/>
+      <tstamp>55B1A8CC</tstamp>
+    </comp>
+    <comp ref="MH703">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #5/" tstamps="/55AE3940/"/>
+      <tstamp>55B1A938</tstamp>
+    </comp>
+    <comp ref="MH704">
+      <value>NPTH</value>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/LED and Sensor Board #5/" tstamps="/55AE3940/"/>
+      <tstamp>55B1A93E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="NewUnsorted" part="RES">
+      <description>Resistor</description>
+      <footprints>
+        <fp>RES*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="LED_RABG">
+      <description>Common Anode RGB LED</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RABG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RED_CATHODE" type="passive"/>
+        <pin num="2" name="COMMON_ANODE" type="passive"/>
+        <pin num="3" name="BLUE_CATHODE" type="passive"/>
+        <pin num="4" name="GREEN_CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="MOUNTING_HOLE_NPTH">
+      <description>Non-plated mounting hole for electrical isolation mounting</description>
+      <footprints>
+        <fp>MTGNP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MOUNTING_HOLE_NPTH</field>
+      </fields>
+      <pins>
+        <pin num="0" name="~" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="SW_PUSH_NO">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="SW_SPST">
+      <description>SPST Switch</description>
+      <footprints>
+        <fp>SW_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="TLC5940NT">
+      <description>16 Channel PWM Driver PDIP28</description>
+      <docs>TI/tlc5940.pdf</docs>
+      <footprints>
+        <fp>DIP*Q28?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC5940NT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~OUT_1" type="openCol"/>
+        <pin num="2" name="~OUT_2" type="openCol"/>
+        <pin num="3" name="~OUT_3" type="openCol"/>
+        <pin num="4" name="~OUT_4" type="openCol"/>
+        <pin num="5" name="~OUT_5" type="openCol"/>
+        <pin num="6" name="~OUT_6" type="openCol"/>
+        <pin num="7" name="~OUT_7" type="openCol"/>
+        <pin num="8" name="~OUT_8" type="openCol"/>
+        <pin num="9" name="~OUT_9" type="openCol"/>
+        <pin num="10" name="~OUT10" type="openCol"/>
+        <pin num="11" name="~OUT11" type="openCol"/>
+        <pin num="12" name="~OUT12" type="openCol"/>
+        <pin num="13" name="~OUT13" type="openCol"/>
+        <pin num="14" name="~OUT14" type="openCol"/>
+        <pin num="15" name="~OUT15" type="openCol"/>
+        <pin num="16" name="~XERR" type="openCol"/>
+        <pin num="17" name="SOUT" type="output"/>
+        <pin num="18" name="GSCLK" type="input"/>
+        <pin num="19" name="DCPRG" type="input"/>
+        <pin num="20" name="IREF" type="input"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="BLANK" type="input"/>
+        <pin num="24" name="XLAT" type="input"/>
+        <pin num="25" name="SCLK" type="input"/>
+        <pin num="26" name="SIN" type="input"/>
+        <pin num="27" name="VPRG" type="input"/>
+        <pin num="28" name="~OUT_0" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="TSOP321xx">
+      <aliases>
+        <alias>TSOP323xx</alias>
+        <alias>TSOP325xx</alias>
+      </aliases>
+      <description>IR Receiver Module</description>
+      <docs>Vishay/Vishay-TSOP32138-datasheet.pdf</docs>
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSOP321xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DeMod" type="output"/>
+        <pin num="2" name="Vs" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino" part="ATMEGA168A-P">
+      <aliases>
+        <alias>ATMEGA48A-P</alias>
+        <alias>ATMEGA48PA-P</alias>
+        <alias>ATMEGA88A-P</alias>
+        <alias>ATMEGA88PA-P</alias>
+        <alias>ATMEGA168PA-P</alias>
+        <alias>ATMEGA328-P</alias>
+        <alias>ATMEGA328P-P</alias>
+      </aliases>
+      <description>ATMEGA168A, PDIP28 Narrow, 16k Flash, 1kB SRAM, 512B EEPROM</description>
+      <docs>http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf</docs>
+      <footprints>
+        <fp>28DIP-ELL600</fp>
+        <fp>28dip600</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA168A-P</field>
+        <field name="MFG#">ATMEGA__8A-P</field>
+        <field name="MFG">Atmel</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="2" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="3" name="(TXD)D1" type="BiDi"/>
+        <pin num="4" name="(INT0)D2" type="BiDi"/>
+        <pin num="5" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="6" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="XTAL1" type="passive"/>
+        <pin num="10" name="XTAL2" type="passive"/>
+        <pin num="11" name="(PWM)D5" type="BiDi"/>
+        <pin num="12" name="(PWM)D6" type="BiDi"/>
+        <pin num="13" name="D7" type="BiDi"/>
+        <pin num="14" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="15" name="(PWM)D9" type="BiDi"/>
+        <pin num="16" name="D10(~SS~/PWM)" type="BiDi"/>
+        <pin num="17" name="D11(MOSI/PWM)" type="BiDi"/>
+        <pin num="18" name="D12(MISO)" type="BiDi"/>
+        <pin num="19" name="D13(SCK/LED)" type="BiDi"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="input"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="(D14)A0" type="BiDi"/>
+        <pin num="24" name="(D15)A1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CONN_08">
+      <description>Generic connector symbol</description>
+      <footprints>
+        <fp>HDR*_1X8_*</fp>
+        <fp>HDR*_2X4_*</fp>
+        <fp>3M_*</fp>
+        <fp>AGILENT_*</fp>
+        <fp>AIRBORNE_*</fp>
+        <fp>AMPHENOL_*</fp>
+        <fp>AVX_*</fp>
+        <fp>BERG_*</fp>
+        <fp>BLOCKMASTER_*</fp>
+        <fp>CUI-STACK_*</fp>
+        <fp>JOHNSON_*</fp>
+        <fp>FCI_*</fp>
+        <fp>FUJITSU_*</fp>
+        <fp>HIROSE_*</fp>
+        <fp>ITT_*</fp>
+        <fp>JALCO_*</fp>
+        <fp>JWT_*</fp>
+        <fp>JST_*</fp>
+        <fp>KEYSTONE_*</fp>
+        <fp>KYCON_*</fp>
+        <fp>LEMO_*</fp>
+        <fp>MILL-MAX_*</fp>
+        <fp>MOLEX_*</fp>
+        <fp>NEUTRIK_*</fp>
+        <fp>PHOENIX_*</fp>
+        <fp>PULSE_*</fp>
+        <fp>RIA_*</fp>
+        <fp>SAMTEC_*</fp>
+        <fp>SIEMENS_*</fp>
+        <fp>SPEEDTECH_*</fp>
+        <fp>STEWART_*</fp>
+        <fp>SULLINS_*</fp>
+        <fp>SWITCHCRAFT_*</fp>
+        <fp>TYCO_*</fp>
+        <fp>YAMAICHI_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_08</field>
+        <field name="Note">Connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+        <pin num="2" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CAP_NP">
+      <description>Capacitor, non polarized</description>
+      <footprints>
+        <fp>CAP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_NP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CONN_06">
+      <description>Generic connector symbol</description>
+      <footprints>
+        <fp>HDR*_1X6_*</fp>
+        <fp>HDR*_2X3_*</fp>
+        <fp>3M_*</fp>
+        <fp>AGILENT_*</fp>
+        <fp>AIRBORNE_*</fp>
+        <fp>AMPHENOL_*</fp>
+        <fp>AVX_*</fp>
+        <fp>BERG_*</fp>
+        <fp>BLOCKMASTER_*</fp>
+        <fp>CUI-STACK_*</fp>
+        <fp>JOHNSON_*</fp>
+        <fp>FCI_*</fp>
+        <fp>FUJITSU_*</fp>
+        <fp>HIROSE_*</fp>
+        <fp>ITT_*</fp>
+        <fp>JALCO_*</fp>
+        <fp>JWT_*</fp>
+        <fp>JST_*</fp>
+        <fp>KEYSTONE_*</fp>
+        <fp>KYCON_*</fp>
+        <fp>LEMO_*</fp>
+        <fp>MILL-MAX_*</fp>
+        <fp>MOLEX_*</fp>
+        <fp>NEUTRIK_*</fp>
+        <fp>PHOENIX_*</fp>
+        <fp>PULSE_*</fp>
+        <fp>RIA_*</fp>
+        <fp>SAMTEC_*</fp>
+        <fp>SIEMENS_*</fp>
+        <fp>SPEEDTECH_*</fp>
+        <fp>STEWART_*</fp>
+        <fp>SULLINS_*</fp>
+        <fp>SWITCHCRAFT_*</fp>
+        <fp>TYCO_*</fp>
+        <fp>YAMAICHI_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_06</field>
+        <field name="Note">Connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="FTDI_Friend">
+      <description>FTDI Friend! by Adafruit</description>
+      <footprints>
+        <fp>HDR*_1X5_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">FTDI_Friend</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="~CTS" type="input"/>
+        <pin num="3" name="Vcc" type="power_out"/>
+        <pin num="4" name="Tx" type="output"/>
+        <pin num="5" name="Rx" type="input"/>
+        <pin num="6" name="~RTS~/~DTR" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="Crystal_Small">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal_</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>DIO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="NewUnsorted">
+      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\NewUnsorted.lib</uri>
+    </library>
+    <library logical="Arduino">
+      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\Arduino.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(A101-Pad2)">
+      <node ref="A101" pin="2"/>
+    </net>
+    <net code="2" name="Net-(A101-Pad3)">
+      <node ref="A101" pin="3"/>
+    </net>
+    <net code="3" name="Net-(A101-Pad4)">
+      <node ref="A101" pin="4"/>
+    </net>
+    <net code="4" name="Net-(A101-Pad5)">
+      <node ref="A101" pin="5"/>
+    </net>
+    <net code="5" name="Net-(A101-Pad6)">
+      <node ref="A101" pin="6"/>
+    </net>
+    <net code="6" name="Net-(A101-Pad1)">
+      <node ref="A101" pin="1"/>
+    </net>
+    <net code="7" name="Net-(U201-Pad26)">
+      <node ref="U201" pin="26"/>
+    </net>
+    <net code="8" name="Net-(U201-Pad25)">
+      <node ref="U201" pin="25"/>
+    </net>
+    <net code="9" name="Net-(U201-Pad27)">
+      <node ref="U201" pin="27"/>
+    </net>
+    <net code="10" name="Net-(U201-Pad28)">
+      <node ref="U201" pin="28"/>
+    </net>
+    <net code="11" name="/Processor Board/Det5">
+      <node ref="U201" pin="14"/>
+      <node ref="J206" pin="7"/>
+    </net>
+    <net code="12" name="/Processor Board/Det4">
+      <node ref="U201" pin="13"/>
+      <node ref="J205" pin="7"/>
+    </net>
+    <net code="13" name="/Processor Board/Det3">
+      <node ref="U201" pin="12"/>
+      <node ref="J204" pin="7"/>
+    </net>
+    <net code="14" name="/Processor Board/Det2">
+      <node ref="U201" pin="11"/>
+      <node ref="J203" pin="7"/>
+    </net>
+    <net code="15" name="/Processor Board/Det1">
+      <node ref="J202" pin="7"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="16" name="Net-(U201-Pad24)">
+      <node ref="U201" pin="24"/>
+    </net>
+    <net code="17" name="Net-(U201-Pad23)">
+      <node ref="U201" pin="23"/>
+    </net>
+    <net code="18" name="Net-(U201-Pad4)">
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C206" pin="2"/>
+      <node ref="C202" pin="1"/>
+      <node ref="SW201" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="J206" pin="2"/>
+      <node ref="J206" pin="8"/>
+      <node ref="J203" pin="2"/>
+      <node ref="J201" pin="1"/>
+      <node ref="BT201" pin="2"/>
+      <node ref="U202" pin="22"/>
+      <node ref="J205" pin="2"/>
+      <node ref="J204" pin="8"/>
+      <node ref="J204" pin="2"/>
+      <node ref="J203" pin="8"/>
+      <node ref="J202" pin="2"/>
+      <node ref="U202" pin="27"/>
+      <node ref="J202" pin="8"/>
+      <node ref="J205" pin="8"/>
+      <node ref="J601" pin="6"/>
+      <node ref="J601" pin="8"/>
+      <node ref="U501" pin="3"/>
+      <node ref="J501" pin="6"/>
+      <node ref="J501" pin="8"/>
+      <node ref="U701" pin="3"/>
+      <node ref="J701" pin="6"/>
+      <node ref="J701" pin="8"/>
+      <node ref="U601" pin="3"/>
+      <node ref="J301" pin="8"/>
+      <node ref="U301" pin="3"/>
+      <node ref="J301" pin="6"/>
+      <node ref="U401" pin="3"/>
+      <node ref="J401" pin="6"/>
+      <node ref="J401" pin="8"/>
+      <node ref="U201" pin="22"/>
+      <node ref="U201" pin="8"/>
+      <node ref="R204" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R204-Pad1)">
+      <node ref="U202" pin="20"/>
+      <node ref="R204" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U202-Pad16)">
+      <node ref="U202" pin="16"/>
+    </net>
+    <net code="22" name="Net-(U201-Pad18)">
+      <node ref="U202" pin="17"/>
+      <node ref="U201" pin="18"/>
+    </net>
+    <net code="23" name="Net-(U201-Pad5)">
+      <node ref="U202" pin="18"/>
+      <node ref="U201" pin="5"/>
+    </net>
+    <net code="24" name="Net-(U201-Pad15)">
+      <node ref="U202" pin="24"/>
+      <node ref="U201" pin="15"/>
+    </net>
+    <net code="25" name="Net-(R203-Pad2)">
+      <node ref="U201" pin="16"/>
+      <node ref="U202" pin="23"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U201-Pad17)">
+      <node ref="U202" pin="26"/>
+      <node ref="U201" pin="17"/>
+    </net>
+    <net code="27" name="Net-(U201-Pad19)">
+      <node ref="U202" pin="25"/>
+      <node ref="U201" pin="19"/>
+    </net>
+    <net code="28" name="/Processor Board/Rx">
+      <node ref="U201" pin="2"/>
+      <node ref="J201" pin="5"/>
+    </net>
+    <net code="29" name="/Processor Board/Tx">
+      <node ref="J201" pin="4"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="30" name="/Processor Board/~CTS">
+      <node ref="J201" pin="2"/>
+    </net>
+    <net code="31" name="Net-(BT201-Pad1)">
+      <node ref="SW202" pin="2"/>
+      <node ref="BT201" pin="1"/>
+    </net>
+    <net code="32" name="/Processor Board/IR">
+      <node ref="U202" pin="15"/>
+      <node ref="J203" pin="6"/>
+      <node ref="J202" pin="6"/>
+      <node ref="J204" pin="6"/>
+      <node ref="J205" pin="6"/>
+      <node ref="J206" pin="6"/>
+    </net>
+    <net code="33" name="VCC">
+      <node ref="U201" pin="7"/>
+      <node ref="U201" pin="20"/>
+      <node ref="U301" pin="2"/>
+      <node ref="D501" pin="2"/>
+      <node ref="D502" pin="2"/>
+      <node ref="C205" pin="1"/>
+      <node ref="J501" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="D201" pin="1"/>
+      <node ref="U401" pin="2"/>
+      <node ref="D401" pin="2"/>
+      <node ref="J401" pin="1"/>
+      <node ref="D402" pin="2"/>
+      <node ref="D302" pin="2"/>
+      <node ref="D301" pin="2"/>
+      <node ref="J301" pin="1"/>
+      <node ref="D602" pin="2"/>
+      <node ref="D601" pin="2"/>
+      <node ref="J601" pin="1"/>
+      <node ref="U601" pin="2"/>
+      <node ref="U202" pin="19"/>
+      <node ref="U202" pin="21"/>
+      <node ref="J202" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="J201" pin="3"/>
+      <node ref="SW202" pin="3"/>
+      <node ref="J203" pin="1"/>
+      <node ref="D701" pin="2"/>
+      <node ref="D702" pin="2"/>
+      <node ref="J701" pin="1"/>
+      <node ref="U701" pin="2"/>
+      <node ref="J205" pin="1"/>
+      <node ref="J204" pin="1"/>
+      <node ref="J206" pin="1"/>
+      <node ref="U501" pin="2"/>
+      <node ref="R203" pin="1"/>
+    </net>
+    <net code="34" name="Net-(C204-Pad1)">
+      <node ref="U201" pin="21"/>
+      <node ref="C204" pin="1"/>
+    </net>
+    <net code="35" name="/Processor Board/~Reset">
+      <node ref="SW201" pin="2"/>
+      <node ref="U201" pin="1"/>
+      <node ref="R201" pin="2"/>
+      <node ref="D201" pin="2"/>
+      <node ref="C203" pin="2"/>
+    </net>
+    <net code="36" name="/Processor Board/~RTS~/~DTR">
+      <node ref="C203" pin="1"/>
+      <node ref="J201" pin="6"/>
+    </net>
+    <net code="37" name="Net-(C202-Pad2)">
+      <node ref="C202" pin="2"/>
+      <node ref="Y201" pin="2"/>
+      <node ref="R202" pin="2"/>
+      <node ref="U201" pin="10"/>
+    </net>
+    <net code="38" name="Net-(C201-Pad2)">
+      <node ref="C201" pin="2"/>
+      <node ref="R202" pin="1"/>
+      <node ref="U201" pin="9"/>
+      <node ref="Y201" pin="1"/>
+    </net>
+    <net code="39" name="Net-(MH204-Pad0)">
+      <node ref="MH204" pin="0"/>
+    </net>
+    <net code="40" name="Net-(MH203-Pad0)">
+      <node ref="MH203" pin="0"/>
+    </net>
+    <net code="41" name="Net-(MH202-Pad0)">
+      <node ref="MH202" pin="0"/>
+    </net>
+    <net code="42" name="Net-(MH201-Pad0)">
+      <node ref="MH201" pin="0"/>
+    </net>
+    <net code="43" name="Net-(MH304-Pad0)">
+      <node ref="MH304" pin="0"/>
+    </net>
+    <net code="44" name="Net-(MH303-Pad0)">
+      <node ref="MH303" pin="0"/>
+    </net>
+    <net code="45" name="/LED and Sensor Board #1/Blue">
+      <node ref="D301" pin="3"/>
+      <node ref="J301" pin="4"/>
+    </net>
+    <net code="46" name="/LED and Sensor Board #1/Green">
+      <node ref="J301" pin="3"/>
+      <node ref="D301" pin="4"/>
+    </net>
+    <net code="47" name="/LED and Sensor Board #1/Red">
+      <node ref="J301" pin="2"/>
+      <node ref="D301" pin="1"/>
+    </net>
+    <net code="48" name="Net-(MH301-Pad0)">
+      <node ref="MH301" pin="0"/>
+    </net>
+    <net code="49" name="Net-(MH302-Pad0)">
+      <node ref="MH302" pin="0"/>
+    </net>
+    <net code="50" name="/LED and Sensor Board #1/IR">
+      <node ref="J301" pin="5"/>
+      <node ref="D302" pin="1"/>
+    </net>
+    <net code="51" name="/LED and Sensor Board #1/Det">
+      <node ref="J301" pin="7"/>
+      <node ref="U301" pin="1"/>
+    </net>
+    <net code="52" name="Net-(MH404-Pad0)">
+      <node ref="MH404" pin="0"/>
+    </net>
+    <net code="53" name="Net-(MH403-Pad0)">
+      <node ref="MH403" pin="0"/>
+    </net>
+    <net code="54" name="/LED and Sensor Board #2/IR">
+      <node ref="D402" pin="1"/>
+      <node ref="J401" pin="5"/>
+    </net>
+    <net code="55" name="/LED and Sensor Board #2/Blue">
+      <node ref="J401" pin="4"/>
+      <node ref="D401" pin="3"/>
+    </net>
+    <net code="56" name="/LED and Sensor Board #2/Green">
+      <node ref="D401" pin="4"/>
+      <node ref="J401" pin="3"/>
+    </net>
+    <net code="57" name="/LED and Sensor Board #2/Red">
+      <node ref="J401" pin="2"/>
+      <node ref="D401" pin="1"/>
+    </net>
+    <net code="58" name="Net-(MH402-Pad0)">
+      <node ref="MH402" pin="0"/>
+    </net>
+    <net code="59" name="/LED and Sensor Board #2/Det">
+      <node ref="U401" pin="1"/>
+      <node ref="J401" pin="7"/>
+    </net>
+    <net code="60" name="Net-(MH401-Pad0)">
+      <node ref="MH401" pin="0"/>
+    </net>
+    <net code="61" name="Net-(MH504-Pad0)">
+      <node ref="MH504" pin="0"/>
+    </net>
+    <net code="62" name="Net-(MH503-Pad0)">
+      <node ref="MH503" pin="0"/>
+    </net>
+    <net code="63" name="/LED and Sensor Board #3/Blue">
+      <node ref="D501" pin="3"/>
+      <node ref="J501" pin="4"/>
+    </net>
+    <net code="64" name="/LED and Sensor Board #3/Green">
+      <node ref="D501" pin="4"/>
+      <node ref="J501" pin="3"/>
+    </net>
+    <net code="65" name="/LED and Sensor Board #3/Red">
+      <node ref="D501" pin="1"/>
+      <node ref="J501" pin="2"/>
+    </net>
+    <net code="66" name="Net-(MH501-Pad0)">
+      <node ref="MH501" pin="0"/>
+    </net>
+    <net code="67" name="Net-(MH502-Pad0)">
+      <node ref="MH502" pin="0"/>
+    </net>
+    <net code="68" name="/LED and Sensor Board #3/IR">
+      <node ref="J501" pin="5"/>
+      <node ref="D502" pin="1"/>
+    </net>
+    <net code="69" name="/LED and Sensor Board #3/Det">
+      <node ref="U501" pin="1"/>
+      <node ref="J501" pin="7"/>
+    </net>
+    <net code="70" name="Net-(MH604-Pad0)">
+      <node ref="MH604" pin="0"/>
+    </net>
+    <net code="71" name="Net-(MH603-Pad0)">
+      <node ref="MH603" pin="0"/>
+    </net>
+    <net code="72" name="/LED and Sensor Board #4/Blue">
+      <node ref="J601" pin="4"/>
+      <node ref="D601" pin="3"/>
+    </net>
+    <net code="73" name="/LED and Sensor Board #4/Green">
+      <node ref="J601" pin="3"/>
+      <node ref="D601" pin="4"/>
+    </net>
+    <net code="74" name="/LED and Sensor Board #4/Red">
+      <node ref="D601" pin="1"/>
+      <node ref="J601" pin="2"/>
+    </net>
+    <net code="75" name="Net-(MH601-Pad0)">
+      <node ref="MH601" pin="0"/>
+    </net>
+    <net code="76" name="Net-(MH602-Pad0)">
+      <node ref="MH602" pin="0"/>
+    </net>
+    <net code="77" name="/LED and Sensor Board #4/IR">
+      <node ref="J601" pin="5"/>
+      <node ref="D602" pin="1"/>
+    </net>
+    <net code="78" name="/LED and Sensor Board #4/Det">
+      <node ref="U601" pin="1"/>
+      <node ref="J601" pin="7"/>
+    </net>
+    <net code="79" name="Net-(MH704-Pad0)">
+      <node ref="MH704" pin="0"/>
+    </net>
+    <net code="80" name="Net-(MH703-Pad0)">
+      <node ref="MH703" pin="0"/>
+    </net>
+    <net code="81" name="/LED and Sensor Board #5/IR">
+      <node ref="J701" pin="5"/>
+      <node ref="D702" pin="1"/>
+    </net>
+    <net code="82" name="/LED and Sensor Board #5/Blue">
+      <node ref="J701" pin="4"/>
+      <node ref="D701" pin="3"/>
+    </net>
+    <net code="83" name="/LED and Sensor Board #5/Green">
+      <node ref="D701" pin="4"/>
+      <node ref="J701" pin="3"/>
+    </net>
+    <net code="84" name="/LED and Sensor Board #5/Red">
+      <node ref="D701" pin="1"/>
+      <node ref="J701" pin="2"/>
+    </net>
+    <net code="85" name="Net-(MH701-Pad0)">
+      <node ref="MH701" pin="0"/>
+    </net>
+    <net code="86" name="Net-(MH702-Pad0)">
+      <node ref="MH702" pin="0"/>
+    </net>
+    <net code="87" name="/LED and Sensor Board #5/Det">
+      <node ref="J701" pin="7"/>
+      <node ref="U701" pin="1"/>
+    </net>
+    <net code="88" name="/Processor Board/Blue1">
+      <node ref="J202" pin="5"/>
+      <node ref="U202" pin="2"/>
+    </net>
+    <net code="89" name="/Processor Board/Green5">
+      <node ref="J206" pin="4"/>
+      <node ref="U202" pin="13"/>
+    </net>
+    <net code="90" name="/Processor Board/Green4">
+      <node ref="J205" pin="4"/>
+      <node ref="U202" pin="10"/>
+    </net>
+    <net code="91" name="/Processor Board/Green3">
+      <node ref="U202" pin="7"/>
+      <node ref="J204" pin="4"/>
+    </net>
+    <net code="92" name="/Processor Board/Green2">
+      <node ref="U202" pin="4"/>
+      <node ref="J203" pin="4"/>
+    </net>
+    <net code="93" name="/Processor Board/Green1">
+      <node ref="J202" pin="4"/>
+      <node ref="U202" pin="1"/>
+    </net>
+    <net code="94" name="/Processor Board/Blue5">
+      <node ref="U202" pin="14"/>
+      <node ref="J206" pin="5"/>
+    </net>
+    <net code="95" name="/Processor Board/Blue4">
+      <node ref="U202" pin="11"/>
+      <node ref="J205" pin="5"/>
+    </net>
+    <net code="96" name="/Processor Board/Blue3">
+      <node ref="U202" pin="8"/>
+      <node ref="J204" pin="5"/>
+    </net>
+    <net code="97" name="/Processor Board/Blue2">
+      <node ref="U202" pin="5"/>
+      <node ref="J203" pin="5"/>
+    </net>
+    <net code="98" name="/Processor Board/Red5">
+      <node ref="J206" pin="3"/>
+      <node ref="U202" pin="12"/>
+    </net>
+    <net code="99" name="/Processor Board/Red4">
+      <node ref="U202" pin="9"/>
+      <node ref="J205" pin="3"/>
+    </net>
+    <net code="100" name="/Processor Board/Red3">
+      <node ref="U202" pin="6"/>
+      <node ref="J204" pin="3"/>
+    </net>
+    <net code="101" name="/Processor Board/Red2">
+      <node ref="U202" pin="3"/>
+      <node ref="J203" pin="3"/>
+    </net>
+    <net code="102" name="/Processor Board/Red1">
+      <node ref="J202" pin="3"/>
+      <node ref="U202" pin="28"/>
+    </net>
+  </nets>
+</export>
